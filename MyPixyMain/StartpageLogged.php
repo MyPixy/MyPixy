@@ -11,8 +11,17 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <!-- Verbindung zum Server bzw Datenbank herstellen-->
         <?php
-        // put your code here
+        $host_name = "db598955698.db.1and1.com";
+        $database = "db598955698";
+        $user_name = "dbo598955698";
+        $password = "ChiaraSarah123";
+
+        $connect = mysqli_connect($host_name, $user_name, $password, $database);
+        if (mysqli_connect_errno()) {
+            echo "Verbindung zum MySQL Server fehlgeschlagen: " . mysqli_connect_error();
+        }  
         ?>
     </body>
 </html>
