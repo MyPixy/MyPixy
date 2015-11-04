@@ -13,7 +13,7 @@ Feature: CreateEvent
         the event is created.
       Given I see input fields for Titel, Kategorie, Wiederholung and bis
       And I see input fields for Datum von and bis
-      And I see a Speichern-Button
+      And I see a "Speichern" Button
       When I add information to the fields
       And I click on the Speichern-Button 
       Then The event is created

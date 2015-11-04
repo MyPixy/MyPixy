@@ -1,8 +1,7 @@
 #----------------------------------
 # Example of Cucumber .feature file
 #----------------------------------
-    
-@RunWith 
+
 Feature: Register
     as a unregistered Visitor
     I want to register at MyPixy

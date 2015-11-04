@@ -2,7 +2,6 @@
 # Example of Cucumber .feature file
 #----------------------------------
     
-@RunWith 
 Feature: Login
     as a unlogged User
     I want to login to MyPixy
