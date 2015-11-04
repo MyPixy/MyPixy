@@ -1,13 +1,14 @@
 #----------------------------------
-# Example of Cucumber .feature file
+# UC: CreateEvent Cucumber .feature file
 #----------------------------------
     
-@RunWith 
+@RunWith
+
 Feature: CreateEvent
      as an User
    I want to create an event
 
-   Scenario: CreateEvent_ValidInput_NoFullDay
+    Scenario: CreateEvent_ValidInput_NoFullDay
       If the input for the creation of an event is right 
         the event is created.
       Given I see input fields for Titel, Kategorie, Wiederholung and bis
