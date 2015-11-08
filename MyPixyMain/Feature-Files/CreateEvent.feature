@@ -4,8 +4,8 @@
 
 
 Feature: CreateEvent
-     as an User
-   I want to create an event
+  as an User
+  I want to create an event
 
     Scenario: CreateEvent_ValidInput_NoFullDay
       If the input for the creation of an event is right 
