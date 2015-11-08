@@ -1,8 +1,7 @@
 #----------------------------------
 # UC: CreateEvent Cucumber .feature file
 #----------------------------------
-    
-@RunWith
+
 
 Feature: CreateEvent
      as an User
